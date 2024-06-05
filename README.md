@@ -1,8 +1,30 @@
 # internet_connection_status
 
-A new Flutter project.
+`
+internet_connection_checker_plus: ^2.4.1
+
+`
+
+# For Android 
+Add the following permissions to your AndroidManifest.xml file:
+`
+    <uses-permission android:name="android.permission.INTERNET" />
+`
+# For ios
+
+`
+        <key>NSAppTransportSecurity</key>
+        <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+        </dict>
+
+`
 
 ## Getting Started
+
+
+
 
 This project is a starting point for a Flutter application.
 
